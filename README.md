@@ -5,7 +5,7 @@ Lightweight animated wallpaper app for Windows, written in C++. Free alternative
 A lightweight, free animated wallpaper app for Windows, built from scratch in C++ (no Electron, no Chromium). 
 Designed specifically for low-end PCs (like Intel i3 with 8GB RAM) that cannot run Wallpaper Engine.
 
-![Papel Vivo funcionando](https://itch.io/game/edit/5171781)
+![Papel Vivo funcionando](https://img.itch.zone/aW1hZ2UvNTE3MTc4MS8zMDk5MDE0OS5qcGc=/original/M6mBES.jpg)
 
 # Papel Vivo
 ...
