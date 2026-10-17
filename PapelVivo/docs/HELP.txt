@@ -1,0 +1,6 @@
+PAPEL VIVO — QUICK HELP
+Choose video → Preview → Apply to desktop.
+Pause/Resume controls playback. Restore original restores the desktop.
+Stop and exit closes the app. Changing the language requires restart.
+If something fails, open Diagnostics and review personal data before sharing.
+See Guide-en.pdf or Guide-en.html for complete instructions.

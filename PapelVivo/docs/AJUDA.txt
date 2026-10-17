@@ -1,0 +1,6 @@
+PAPEL VIVO — AJUDA RÁPIDA
+Escolher vídeo → Pré-visualizar → Aplicar ao desktop.
+Pausar/Continuar controla a reprodução. Voltar ao original restaura o desktop.
+Parar e sair encerra o app. A troca de idioma exige reinício.
+Se houver falha, abra Diagnóstico e revise dados pessoais antes de compartilhar.
+Consulte Guia-pt-BR.pdf ou Guia-pt-BR.html para as orientações completas.
