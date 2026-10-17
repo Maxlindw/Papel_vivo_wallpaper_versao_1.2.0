@@ -16,6 +16,10 @@ Designed specifically for low-end PCs (like Intel i3 with 8GB RAM) that cannot r
 ## Download
 You can download the installer from [itch.io] https://kyzinh.itch.io/papel-vivo-wallpaper-animado-leve-para-pc-fraco
 
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![Platform](https://img.shields.io/badge/Platform-Windows-blue)
+![Status](https://img.shields.io/badge/Status-Beta-green)
+
 ## License
 The core engine is open-source under the MIT License. 
 Third-party libraries: libmpv (LGPL), FFmpeg (GPL).
