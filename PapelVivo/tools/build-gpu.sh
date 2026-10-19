@@ -1,0 +1,7 @@
+#!/bin/sh
+set -eu
+# Set FFMPEG_SOURCE to extracted FFmpeg 8.1.3 sources; NV_PREFIX to installed nv-codec-headers 12.1.14.0.
+: "${FFMPEG_SOURCE:?}" "${NV_PREFIX:?}"
+export PKG_CONFIG_PATH="$NV_PREFIX/lib/pkgconfig"
+"$FFMPEG_SOURCE/configure" --host-cc="${HOST_CC:-cc}" --extra-cflags="-Os -I$NV_PREFIX/include" '--target-os=mingw32' '--arch=x86_64' '--enable-cross-compile' '--cross-prefix=x86_64-w64-mingw32-' '--cc=x86_64-w64-mingw32-gcc' '--cxx=x86_64-w64-mingw32-g++' '--disable-autodetect' '--disable-everything' '--disable-network' '--disable-doc' '--disable-debug' '--disable-ffplay' '--disable-ffprobe' '--enable-small' '--enable-ffmpeg' '--enable-avcodec' '--enable-avformat' '--enable-avfilter' '--enable-swscale' '--enable-swresample' '--enable-protocol=file,pipe' '--enable-demuxer=mov,matroska,avi,mpegts,mpegps,image2,image2pipe' '--enable-muxer=mp4,image2' '--enable-decoder=h264,hevc,mpeg4,mpeg2video,vp8,vp9,png,mjpeg,bmp,webp,rawvideo,aac,mp3,opus,vorbis,pcm_s16le' '--enable-encoder=h264_nvenc,h264_mf,aac,png' '--enable-parser=h264,hevc,mpeg4video,mpegvideo,vp8,vp9,png,mjpeg,webp,aac,mpegaudio,opus,vorbis' '--enable-filter=scale,fps,format,pad,setsar,transpose,hflip,vflip,null,trim,setpts,aresample,anull' '--enable-bsf=h264_mp4toannexb,hevc_mp4toannexb,extract_extradata' '--enable-mediafoundation' '--enable-d3d11va' '--enable-nvenc' '--enable-ffnvcodec' '-I/data/papel-vivo-2/build/gpu-prefix/include' '--extra-ldflags=-static' '--pkg-config-flags=--static' '--pkg-config=/usr/bin/pkgconf'
+make -j2

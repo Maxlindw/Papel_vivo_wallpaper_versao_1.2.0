@@ -1,0 +1,13 @@
+Brisa-Azul.mp4 — exemplo original gerado por procedimento matemático.
+1280x720, H.264, yuv420p, 30 fps, 10 segundos, sem áudio.
+Gerador: tools/gerar_exemplo.py no pacote de código-fonte.
+Não contém imagens, músicas ou gravações de terceiros.
+
+Na medida dos direitos que possam existir sobre este exemplo, os colaboradores
+Papel Vivo o dedicam ao domínio público sob CC0 1.0 Universal, sem garantias.
+Resumo e texto jurídico: https://creativecommons.org/publicdomain/zero/1.0/
+https://creativecommons.org/publicdomain/zero/1.0/legalcode
+
+Não é necessário atribuir autoria para usar o vídeo como wallpaper.
+O script gerador e o código do aplicativo seguem MIT, não a licença de uma
+biblioteca de vídeo externa.

@@ -1,0 +1,16 @@
+PAPEL VIVO 2.0.1 — TERMS FOR NEW ORIGINAL COMPONENTS
+Author: kz. Rights in third-party components remain with their authors.
+
+Free personal use is allowed. The Papel Vivo brand, banner/icon artwork and new panel, language and installer components are provided for use with this application. Modifying, selling or redistributing those new original components requires the rights holder's permission, except where applicable law or the mandatory permissions below require otherwise.
+
+This restriction does NOT revoke rights already granted for the pre-existing 1.0.2 code under MIT. Its notices and license remain in Licenses/PapelVivo-ate-1.0.2-MIT.txt. Changes do not make previously licensed code proprietary.
+
+libmpv, FFmpeg/libx264, NSIS have their own licenses, including LGPL, GPL, MIT and the applicable NSIS exceptions. These licenses prevail over conflicting restrictions here. Library modification, replacement and redistribution permitted by those licenses remain permitted. Reverse engineering/debugging needed to debug modifications to LGPL libraries is allowed. An ABI-compatible libmpv DLL may be substituted; no technical check prevents that.
+
+Before publicly redistributing this package, fulfill all corresponding-source, copyright and notice requirements of the statically incorporated dependencies in the official third-party builds. See THIRD-PARTY-NOTICES.md. Included principal source projects and recipes are not a certification that all transitive corresponding source has been archived. This prepared package is for local use; do not claim exclusive authorship of third-party components.
+
+Software is supplied as-is, without guarantees of performance, universal compatibility or fitness for a particular purpose, to the extent permitted by applicable law. Mandatory consumer rights are not excluded. Respect video copyright, organizational policies and hardware limits. The Brisa Azul sample retains its separate license.
+
+Windows may show a SmartScreen or unknown-publisher warning. Check the download source. Verify origin and integrity. Do not disable protection to run a file detected as malicious.
+
+The installer writes application files only to the chosen product folder and creates current-user shortcuts and product-specific registry entries. It does not replace system DLLs, install services, change startup settings, or overwrite the original wallpaper. Uninstall removes recognized application files. Saved Player data is preserved by default; a separate unchecked option allows deleting Player preferences, thumbnails and generated copies. Original files outside the Player data folder are never deleted. No software can promise zero risk: check the destination and retain backups of important files.

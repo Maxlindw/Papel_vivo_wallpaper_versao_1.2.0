@@ -1,0 +1,46 @@
+#pragma code_page(65001)
+1 24 "app.manifest"
+1 VERSIONINFO
+FILEVERSION 2,0,1,0
+PRODUCTVERSION 2,0,1,0
+FILEOS 0x40004
+FILETYPE 0x1
+BEGIN
+ BLOCK "StringFileInfo"
+ BEGIN
+  BLOCK "041604b0"
+  BEGIN
+   VALUE "CompanyName", "kz\0"
+   VALUE "FileDescription", "Papel Vivo — wallpaper animado\0"
+   VALUE "FileVersion", "2.0.1\0"
+   VALUE "ProductName", "Papel Vivo\0"
+   VALUE "ProductVersion", "2.0.1\0"
+  END
+ END
+ BLOCK "VarFileInfo"
+ BEGIN
+  VALUE "Translation", 0x0416, 1200
+ END
+END
+
+101 ICON "app.ico"
+102 RCDATA "banner.jpg"
+
+103 RCDATA "tutor-1.png"
+104 RCDATA "tutor-2.png"
+
+201 RCDATA "icons/folder.png"
+202 RCDATA "icons/play.png"
+203 RCDATA "icons/preview.png"
+204 RCDATA "icons/pause.png"
+205 RCDATA "icons/close.png"
+206 RCDATA "icons/gallery.png"
+207 RCDATA "icons/cut.png"
+208 RCDATA "icons/settings.png"
+209 RCDATA "icons/language.png"
+210 RCDATA "icons/info.png"
+211 RCDATA "icons/restore.png"
+212 RCDATA "icons/edit.png"
+213 RCDATA "icons/delete.png"
+214 RCDATA "icons/undo.png"
+215 RCDATA "icons/check.png"
